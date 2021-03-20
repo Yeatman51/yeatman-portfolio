@@ -270,6 +270,15 @@ nav .icon-burger .line {
   font-size: 30px;
 }
 
+.resume {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+
 /* Footer */
 footer {
     border-top: 5px solid white;
