@@ -182,8 +182,6 @@ nav .icon-burger .line {
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
-  /* background-color: #C00BE3; */
-  /* background-image: linear-gradient(#FD0DCB, #C00BE3, #8D00FA); */
 }
 
 .dev-info {
@@ -192,7 +190,6 @@ nav .icon-burger .line {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background-color: #8D00FA; */
   background-image: linear-gradient(var(--blue), var(--org));
   color: white;
   margin: 10px;
@@ -226,8 +223,14 @@ nav .icon-burger .line {
   
 }
 
+.dev-icon {
+display: flex;
+margin: 5px;
+
+}
+
 .dev-pic {
-  width: 50%;
+  width: 80%;
   border-radius: 10%;
   border: 3px solid var(--org);
   justify-content: center;
@@ -277,6 +280,7 @@ nav .icon-burger .line {
   justify-content: center;
   align-items: center;
   font-size: 45px;
+  background-color: var(--org);
 }
 
 /* Footer */
