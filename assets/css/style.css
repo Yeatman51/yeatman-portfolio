@@ -278,15 +278,21 @@ margin: 5px;
 
 }
 
-.code-logos {
+.code-logos-container {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.code-logos {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
 }
 
 .design-logos {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .about-text {
@@ -296,12 +302,14 @@ margin: 5px;
   align-items: center;
   align-content: center;
   justify-items: center;
+  text-align: center;
   font-size: 30px;
 }
 
 .resume {
   display: flex;
   color: white;
+  margin-top: 10px;
   text-decoration: none;
   justify-content: center;
   align-items: center;
