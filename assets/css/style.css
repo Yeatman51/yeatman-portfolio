@@ -229,10 +229,19 @@ nav .icon-burger .line {
   
 }
 
+.dev-icon-container {
+  display: flex;
+flex-direction: row;
+}
+
 .dev-icon {
 display: flex;
+flex-direction: row;
 margin: 5px;
+}
 
+.dev-icon h4 {
+  margin: 5px;
 }
 
 .dev-pic {
